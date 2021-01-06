@@ -1,0 +1,10 @@
+# imgur
+\.imgur\.com/[^.]+
+
+"[0-9a-f]{64}"
+
+# <word>v#
+v\d+(?:\b|(?=[a-zA-Z]))
+# tar arguments
+\b(?:)tar(?:\s+-[a-zA-Z]+|\s[a-z]+)+
+
